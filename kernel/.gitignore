@@ -1,0 +1,8 @@
+# Omit built files after kernel compilation
+*.*o
+*.cmd
+*.mod.c
+.tmp_versions/
+Module.symvers
+modules.order
+
