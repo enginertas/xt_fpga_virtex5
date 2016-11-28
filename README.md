@@ -1,0 +1,1 @@
+# xt_fpga_virtex5
