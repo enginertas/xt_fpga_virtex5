@@ -1,6 +1,6 @@
 # xt_fpga_virtex5
 
-<b>Xtables Driver for DPI Hardware Accelerators on Xilinx Virtex5 ML507 Boards<b>
+<b>Xtables Driver for DPI Hardware Accelerators on Xilinx Virtex5 ML507 Boards</b>
 
 BACKGROUND
 Xilinx Virtex5 ML507 BSP (Board Support Package) contains a PowerPC 440 CPU design. Whole board support package with PowerPC 440 CPU is eligible to run an Open Source Linux distribution maintained in https://github.com/Xilinx/linux-xlnx repository. Apart from standard CPU capabilities, one may use custom hardware accelerators running in parallel. That co-processing may decrease the time and power that CPU uses.
