@@ -1,20 +1,19 @@
 # xt_fpga_virtex5
 
-<b>Xtables Driver for DPI Hardware Accelerators on Xilinx Virtex5 ML507 Boards</b>
+<b> Xtables Driver for DPI Hardware Accelerators on Xilinx Virtex5 ML507 Boards </b>
 
 BACKGROUND
+
 Xilinx Virtex5 ML507 BSP (Board Support Package) contains a PowerPC 440 CPU design. Whole board support package with PowerPC 440 CPU is eligible to run an Open Source Linux distribution maintained in https://github.com/Xilinx/linux-xlnx repository. Apart from standard CPU capabilities, one may use custom hardware accelerators running in parallel. That co-processing may decrease the time and power that CPU uses.
 
-
 PURPOSE
-The aim of project is to enable co-processing of CPU and DPI (deep packet inspection) hardware accelerators on Xilinx Virtex5 ML507 boards. For that aim, the project contains the source codes for both Xtables kernel module and iptables-linked userspace tool.
 
+The aim of project is to enable co-processing of CPU and DPI (deep packet inspection) hardware accelerators on Xilinx Virtex5 ML507 boards. For that aim, the project contains the source codes for both Xtables kernel module and iptables-linked userspace tool.
 
 ABBREVIATIONS
  * Host: An FPGA board that is supposed to run Linux on it.
  * Remote Terminal: A remote computer accessing the running Linux console via a serial connection. Remote terminal and builder machine can be the same.
  * Builder Machine: A computer cross-compiling Linux Kernel Image and synthesizing the board support package. It is also responsible for programming the board (host) using a JTAG cable.
-
 
 HARDWARE/SYSTEM REQUIREMENTS TO USE
  * Host machine = Xilinx Virtex5 ML507 board
